@@ -31,7 +31,7 @@ The companies main database structure as seen below consists of three tables: re
 - **compensation:** Has an employee's ID and how much the employee makes an hour
 - **absenteeism_at_work:** Holds the majority of the company's employee health information and absence data.
 
-![Entity Relationship Diagram](Work_SQL_Project_Tables.png)
+![Entity Relationship Diagram](HR_Health_Insurance_Analysis_EDR.png)
 
 
 
