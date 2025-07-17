@@ -1,6 +1,3 @@
-# HR_Absenteeism_Data_Analysis
-Data Analysis for HR about employee absences and health based insurance incentives.
-
 # HR Health Insurance Analysis
 
 A brief description of what this project does and who it's for
