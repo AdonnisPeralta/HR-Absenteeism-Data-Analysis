@@ -15,9 +15,7 @@ Insights and recommendations are provided on the following key areas:
 - **Find the average hours of work missed by BMI category** 
 - **Identify what season has the most absentees** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link](<HR Request Results Queries.sql>).
-
-Targed SQL queries regarding various business questions can be found here [link].
+Targed SQL queries regarding various business questions can be found here [link](<HR Request Results Queries.sql>).
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
