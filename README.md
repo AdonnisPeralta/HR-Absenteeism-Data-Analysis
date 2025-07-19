@@ -1,4 +1,4 @@
-# HR Health Insurance Analysis
+#HR Absenteeism Data Analysis
 
 A brief description of what this project does and who it's for
 
@@ -15,7 +15,7 @@ Insights and recommendations are provided on the following key areas:
 - **Find the average hours of work missed by BMI category** 
 - **Identify what season has the most absentees** 
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here [link]("HR Request Results Queries.sql").
 
 Targed SQL queries regarding various business questions can be found here [link].
 
