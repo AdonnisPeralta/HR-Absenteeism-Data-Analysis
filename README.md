@@ -1,4 +1,4 @@
-#HR Absenteeism Data Analysis
+#HR Absenteeism Data Analysis 2024
 
 A brief description of what this project does and who it's for
 
@@ -48,7 +48,7 @@ There were 686 Between those 686 employees the total hours they work for the yea
 The two seasons that produce the most absences appear to be the spring followed by summer.
 
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+[Tableau dashboard showing the main metrics and findings from analysis](https://public.tableau.com/shared/4DKQ9S6RS?:display_count=n&:origin=viz_share_link)
 
 
 
