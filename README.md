@@ -17,7 +17,7 @@ Insights and recommendations are provided on the following key areas:
 
 Targed SQL queries regarding various business questions can be found here [link](<HR Request Results Queries.sql>).
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+An interactive Tableau dashboard used to report and explore sales trends can be found here [link](https://public.tableau.com/shared/4DKQ9S6RS?:display_count=n&:origin=viz_share_link).
 
 
 
@@ -47,9 +47,7 @@ There were 686 Between those 686 employees the total hours they work for the yea
 
 The two seasons that produce the most absences appear to be the spring followed by summer.
 
-
-![Tableau dashboard showing the main metrics and findings from analysis](https://public.tableau.com/shared/4DKQ9S6RS?:display_count=n&:origin=viz_share_link)
-[Tableau dashboard screenshot](![Uploading image.png…](<HR Dashboard Screenshot.png>)
+[Tableau dashboard screenshot](<HR Dashboard Screenshot.png>)
 
 
 
