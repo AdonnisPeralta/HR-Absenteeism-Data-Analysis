@@ -47,7 +47,7 @@ There were 686 Between those 686 employees the total hours they work for the yea
 
 The two seasons that produce the most absences appear to be the spring followed by summer.
 
-[Tableau dashboard screenshot](<HR Dashboard Screenshot.png>)
+![Tableau dashboard screenshot](<HR Dashboard Screenshot.png>)
 
 
 
