@@ -49,6 +49,7 @@ The two seasons that produce the most absences appear to be the spring followed 
 
 
 [Tableau dashboard showing the main metrics and findings from analysis](https://public.tableau.com/shared/4DKQ9S6RS?:display_count=n&:origin=viz_share_link)
+[Tableau dashboard screenshot](![Uploading image.png…](<HR Dashboard Screenshot.jpg>)
 
 
 
