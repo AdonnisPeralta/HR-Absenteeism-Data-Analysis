@@ -1,6 +1,4 @@
-#HR Absenteeism Data Analysis 2024
-
-A brief description of what this project does and who it's for
+# HR Absenteeism Data Analysis 2024
 
 # Project Background
 The HR department is looking to find patterns in the employee's health metrics and using a budget of $983,221 to desperse it amoung the employees that are non-smokers and a total budget of $1000 for "healthy" individuals & with low absenteeism.
