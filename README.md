@@ -37,96 +37,34 @@ The companies main database structure as seen below consists of three tables: re
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
-
 Based on the findings, on average the healthy and overweight health categories have the highest amount of absentee hours per year on average by approximately 55%. 
 
 There were 111 employees that met the criteria for getting the $1000 compensation from the healthy employee bonus of having a BMI < 25, non-smoker, non-drinker, absences < avg(absences).
 
-There were 686 Between those 686 employees the total hours they work for the year 1,426,880, and with a budgeted $983,221 split amongst the group as a bonus for the year or as an addition to their hourly compensation it would be $1,433.26 for the year or $0.68 added to their hourly wage.
+There were 686 employees that were marked as non-smokers. Between those 686 employees the total hours they work for the year 1,426,880, and with a budgeted $983,221 split amongst the group as a bonus for the year or as an addition to their hourly compensation it would be $1,433.26 for the year or $0.68 added to their hourly wage.
 
 The two seasons that produce the most absences appear to be the spring followed by summer.
+
+The top 3 reasons for absences were medical consultation (20.14%), dental consultation (15.14%), and physiotherapy (9.32%).
 
 ![Tableau dashboard screenshot](<HR Dashboard Screenshot.png>)
 
 
 
 # Insights Deep Dive
-### Category 1:
+### Budgeted compensation increase & bonus:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Non-Smokers** - Out of the 740 employees, there were 686 that were concidered non-smokers. This means that over 90% of the employees are non-smokers and are eligible for a compensation increase of $0.68 to their hourly wage for the year or $1,433.26 as a one time payment.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Healthiest Employees** - 111 employees are at a BMI that is below 25, non-smoker, non-drinker, and has a number of absentee hours that is less than the average for the whole company. These employees will be eligible for the $1000 bonus. This group of employees made up 15% of the company.
 
-[Visualization specific to category 1]
+### Main reasons for absences:
 
-
-### Category 2:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 2]
-
-
-### Category 3:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
-
+* **Top 3 reasons for absences** - The top 3 reasons that employees have reported for their absence hours are medical consultation (20.14%), dental consultation (15.14%), and physiotherapy (9.32%) with the rest of the 26 reasons making up far less of the total hours.
 
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we would recommend the HR team to consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-
-
-# Assumptions and Caveats:
-
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
-
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
-  
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
-  
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* The HR team should look into. **There is enough coverage during the seasons with the highest number of absentee hours**
