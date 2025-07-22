@@ -1,16 +1,46 @@
 USE work;
 
--- join the tables
+-- Table outputs
+SELECT COUNT(*) FROM reasons;
+SELECT * FROM compensation;
+SELECT * FROM absenteeism_at_work;
+
+-- Reasons for absence and their percentage totals
+WITH reason_count_table AS (
+SELECT r.Number, r.Reason AS reason, COUNT(a.ID) AS reason_count
+
+FROM	reasons r
+LEFT JOIN 	absenteeism_at_work a 
+	ON		r.Number = a.`Reason for absence`
+GROUP BY	r.Number, r.Reason
+ORDER BY	reason_count DESC
+)
+
+SELECT	r.reason, r.reason_count, CONCAT(ROUND((reason_count/(SELECT COUNT(a.ID) FROM absenteeism_at_work a)) * 100, 2), '%') AS percentage_of_total
+FROM reason_count_table r
+LEFT JOIN absenteeism_at_work a
+ON r.Number = a.`Reason for absence`
+GROUP BY r.reason, r.reason_count
+ORDER BY reason_count DESC;
+
+-- Join the tables
 SELECT	* 
 FROM	absenteeism_at_work a
 	LEFT JOIN compensation c
 		ON a.ID = c.ID
 	LEFT JOIN reasons r
 		ON a.`Reason for absence` = r.Number;
--- find the healthiest BMI < 25, non-smoker, non-drinker, absences < avg(absences)
+        
+-- Find the healthiest BMI < 25, non-smoker, non-drinker, absences < avg(absences)
 SELECT	*
 FROM	absenteeism_at_work a
 WHERE	`Social smoker` = 0 AND `Social drinker` = 0 AND `Body mass index` < 25 AND `Absenteeism time in hours` < (SELECT AVG(`Absenteeism time in hours`) FROM absenteeism_at_work);
+
+-- Count of the healthiest employees with: BMI < 25, non-smoker, non-drinker, absences < avg(absences)
+SELECT	COUNT(*)
+FROM	absenteeism_at_work a
+WHERE	`Social smoker` = 0 AND `Social drinker` = 0 AND `Body mass index` < 25 AND `Absenteeism time in hours` < (SELECT AVG(`Absenteeism time in hours`) FROM absenteeism_at_work);
+
 
 -- Compensation rate increase for non-smokers/ budget $983,221
 SELECT	COUNT(*) AS nonsmoker
@@ -25,7 +55,7 @@ FROM	compensation c
 				WHERE	`Social smoker` = 0) AS a
 			ON c.ID = a.ID;
 
--- Optimize the query
+-- Optimize the main query
 SELECT	
 	a.ID,
     r.Reason,
@@ -70,4 +100,3 @@ FROM	absenteeism_at_work a
 		ON a.ID = c.ID
 	LEFT JOIN reasons r
 		ON a.`Reason for absence` = r.Number;
-
