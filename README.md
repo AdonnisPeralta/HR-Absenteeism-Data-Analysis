@@ -1,19 +1,18 @@
 # HR Absenteeism Data Analysis 2024
 
 # Project Background
-The HR department is looking to find patterns in the employee's health metrics and using a budget of $983,221 to desperse it amoung the employees that are non-smokers and a total budget of $1000 for "healthy" individuals & with low absenteeism.
+The HR department is looking to find patterns in the employee's health metrics and using a budget of $983,221 to disperse it among the employees that are non-smokers and a total budget of $1000 for "healthy" individuals & with low absenteeism.
 
 Along with giving the healthy employees a bonus for the year from the budgeted amount, HR is also looking to understand absenteeism at work.
 
 
-Insights and recommendations are provided on the following key areas:
+### This project answers the following business questions:
+**Who qualifies for the "Healthy Employee Bonus"?**
+**How should a $983K bonus budget be distributed among non-smokers?**
+**Which BMI groups miss the most work on average?**
+**What times of year have the most absenteeism?**
 
-- **Provide a list of Healthy individuals & low absenteeism for the healthy bonus program of $1000** 
-- **Calculate a wage increase or annual compensation for non-smokers** 
-- **Find the average hours of work missed by BMI category** 
-- **Identify what season has the most absentees** 
-
-Targed SQL queries regarding various business questions can be found here [link](<HR Request Results Queries.sql>).
+	Targeted SQL queries regarding various business questions can be found here [link](<HR Request Results Queries.sql>).
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link](https://public.tableau.com/shared/4DKQ9S6RS?:display_count=n&:origin=viz_share_link).
 
@@ -52,7 +51,7 @@ The top 3 reasons for absences were medical consultation (20.14%), dental consul
 # Insights Deep Dive
 ### Budgeted compensation increase & bonus:
 
-* **Non-Smokers** - Out of the 740 employees, there were 686 that were concidered non-smokers. This means that over 90% of the employees are non-smokers and are eligible for a compensation increase of $0.68 to their hourly wage for the year or $1,433.26 as a one time payment.
+* **Non-Smokers** - Out of the 740 employees, there were 686 that were considered non-smokers. This means that over 90% of the employees are non-smokers and are eligible for a compensation increase of $0.68 to their hourly wage for the year or $1,433.26 as a one time payment.
   
 * **Healthiest Employees** - 111 employees are at a BMI that is below 25, non-smoker, non-drinker, and has a number of absentee hours that is less than the average for the whole company. These employees will be eligible for the $1000 bonus. This group of employees made up 15% of the company.
 
@@ -65,4 +64,6 @@ The top 3 reasons for absences were medical consultation (20.14%), dental consul
 
 Based on the insights and findings above, we would recommend the HR team to consider the following: 
 
-* The HR team should look into. **There is enough coverage during the seasons with the highest number of absentee hours**
+* The HR team should ensure there is adequate coverage during Spring and Summer, which show the highest absenteeism rates.
+* Consider promoting wellness programs during spring to reduce absenteeism.
+* Evaluate whether the top reasons for absence (e.g., medical, dental) can be addressed through on-site or telehealth benefits.
