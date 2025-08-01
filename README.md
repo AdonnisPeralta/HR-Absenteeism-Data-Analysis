@@ -100,9 +100,9 @@ WHERE Social_smoker = 0
 3. **Cost-Benefit Analysis**: Track ROI of health incentive programs
 
 ## 🔗 Project Resources
-- **SQL Queries**: [View all business logic queries](HR_Request_Results_Queries.sql)
+- **SQL Queries**: [View all business logic queries](<HR Request Results Queries.sql>)
 - **Dashboard Screenshots**: [Static dashboard views](HR_Dashboard_Screenshot.png)
-- **Data Model**: [Entity Relationship Diagram](HR_Health_Insurance_Analysis_EDR.png)
+- **Data Model**: [Entity Relationship Diagram](<HR_Health_Insurance_Analysis_EDR.png>)
 
 ## Future Enhancements
 - **Predictive Modeling**: Machine learning algorithms to forecast individual employee absence risk
