@@ -104,6 +104,8 @@ WHERE Social_smoker = 0
 - **Dashboard Screenshot**:
   ![Static dashboard views](<HR Dashboard Screenshot.png>)
 - **Data Model**:
+
+  
   ![Entity Relationship Diagram](<HR_Health_Insurance_Analysis_EDR.png>)
 
 ## Future Enhancements
