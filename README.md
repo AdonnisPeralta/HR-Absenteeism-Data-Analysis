@@ -101,8 +101,10 @@ WHERE Social_smoker = 0
 
 ## 🔗 Project Resources
 - **SQL Queries**: [View all business logic queries](<HR Request Results Queries.sql>)
-- **Dashboard Screenshot**: ![Static dashboard views](<HR Dashboard Screenshot.png>)
-- **Data Model**: ![Entity Relationship Diagram](<HR_Health_Insurance_Analysis_EDR.png>)
+- **Dashboard Screenshot**:
+  ![Static dashboard views](<HR Dashboard Screenshot.png>)
+- **Data Model**:
+  ![Entity Relationship Diagram](<HR_Health_Insurance_Analysis_EDR.png>)
 
 ## Future Enhancements
 - **Predictive Modeling**: Machine learning algorithms to forecast individual employee absence risk
